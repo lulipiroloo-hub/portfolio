@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Lucía Pirolo | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio de desarrollo web de Lucía Pirolo, alumna de St. Brendan's College.">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✨</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a class="brand" href="#inicio">Lucía Pirolo</a>
+            <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#acerca">Acerca de mí</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="header" id="inicio">
+        <div class="header-content">
+            <img class="profile-photo" src="foto%20lu.jpg" alt="Foto de perfil de Lucía Pirolo">
+            <span class="role-badge">St. Brendan's College • Desarrollo Web</span>
+            <h1>Lucía Pirolo</h1>
+            <p>Diseño y desarrollo de experiencias web interactivas, claras y responsivas.</p>
+            <div class="header-actions">
+                <a href="#portfolio" class="btn-primary">Ver proyectos</a>
+                <a href="#contacto" class="btn-secondary">Contacto</a>
+            </div>
+        </div>
+    </header>
+
+    <main id="contenido">
+        <section class="portfolio section" id="portfolio">
+            <div class="container">
+                <div class="section-heading">
+                    <p>Trabajos seleccionados</p>
+                    <h2>Portfolio</h2>
+                </div>
+
+                <div class="row">
+                    <!-- Proyecto 01: Color Game -->
+                    <div class="col">
+                        <article class="project-card">
+                            <a href="color%20game/index.html" target="_blank" rel="noopener">
+                                <div class="card-banner banner-color">
+                                    <svg viewBox="0 0 64 64" width="54" height="54" fill="none" stroke="currentColor" stroke-width="2.5">
+                                        <circle cx="32" cy="32" r="22" stroke="#ffffff"/>
+                                        <circle cx="32" cy="23" r="6" fill="#fb7185" stroke="none"/>
+                                        <circle cx="24" cy="37" r="6" fill="#38bdf8" stroke="none"/>
+                                        <circle cx="40" cy="37" r="6" fill="#4ade80" stroke="none"/>
+                                    </svg>
+                                </div>
+                                <div class="project-content">
+                                    <div class="card-top">
+                                        <span>01.</span>
+                                        <small>JavaScript</small>
+                                    </div>
+                                    <h3>Color Game</h3>
+                                    <p>Juego interactivo para adivinar colores a partir de su código RGB con distintos niveles de dificultad.</p>
+                                    <span class="card-link">Explorar proyecto →</span>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+
+                    <!-- Proyecto 02: Lista de Supermercado -->
+                    <div class="col">
+                        <article class="project-card">
+                            <a href="Lista%20super/index.html" target="_blank" rel="noopener">
+                                <div class="card-banner banner-list">
+                                    <svg viewBox="0 0 64 64" width="54" height="54" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                        <rect x="16" y="12" width="32" height="40" rx="4"/>
+                                        <path d="M23 24l3 3 6-6"/>
+                                        <line x1="36" y1="24" x2="42" y2="24"/>
+                                        <path d="M23 34l3 3 6-6"/>
+                                        <line x1="36" y1="34" x2="42" y2="34"/>
+                                        <line x1="23" y1="44" x2="42" y2="44"/>
+                                    </svg>
+                                </div>
+                                <div class="project-content">
+                                    <div class="card-top">
+                                        <span>02.</span>
+                                        <small>DOM & Eventos</small>
+                                    </div>
+                                    <h3>Lista de Supermercado</h3>
+                                    <p>Aplicación dinámica para agregar, marcar como comprados y eliminar productos en tiempo real.</p>
+                                    <span class="card-link">Explorar proyecto →</span>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+
+                    <!-- Proyecto 03: Piedra, Papel o Tijera -->
+                    <div class="col">
+                        <article class="project-card">
+                            <a href="Piedra%20papel%20o%20tijera/index.html" target="_blank" rel="noopener">
+                                <div class="card-banner banner-game">
+                                    <svg viewBox="0 0 64 64" width="54" height="54" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="22" cy="24" r="7"/>
+                                        <circle cx="22" cy="40" r="7"/>
+                                        <line x1="28" y1="27" x2="48" y2="41"/>
+                                        <line x1="28" y1="37" x2="48" y2="23"/>
+                                    </svg>
+                                </div>
+                                <div class="project-content">
+                                    <div class="card-top">
+                                        <span>03.</span>
+                                        <small>Lógica JS</small>
+                                    </div>
+                                    <h3>Piedra, Papel o Tijera</h3>
+                                    <p>El clásico juego contra la computadora con interfaz moderna, jugadas aleatorias y marcador.</p>
+                                    <span class="card-link">Explorar proyecto →</span>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="acerca">
+            <div class="container">
+                <div class="section-heading">
+                    <p>Perfil</p>
+                    <h2>Acerca de mí</h2>
+                </div>
+                <div class="about-content">
+                    <p>Soy Lucía Pirolo, alumna de St. Brendan's College enfocada en crear sitios web claros, modernos y fáciles de usar. Me interesa transformar ideas en aplicaciones interactivas funcionales, cuidando tanto la estética como la experiencia de navegación.</p>
+                    <p>Trabajo con HTML, CSS y JavaScript, prestando especial atención al diseño responsivo, la jerarquía visual y los detalles de cada interfaz.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section" id="contacto">
+            <div class="container">
+                <div class="section-heading">
+                    <p>Disponible para colaborar</p>
+                    <h2>Contacto</h2>
+                </div>
+                <form class="contact-form" id="contactForm" action="mailto:lpirolo@stbrendans.edu.ar" method="POST" enctype="text/plain">
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Correo electrónico</label>
+                        <input id="email" name="email" type="email" placeholder="tu@email.com" required>
+                    </div>
+
+                    <div class="form-group form-message">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribí tu mensaje" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primary">Enviar mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-row">
+            <div class="footer-col">
+                <h2>Lucía Pirolo</h2>
+                <p><a href="mailto:lpirolo@stbrendans.edu.ar">lpirolo@stbrendans.edu.ar</a></p>
+                <p>Buenos Aires, Argentina</p>
+            </div>
+            <div class="footer-col footer-right">
+                <h2>Navegación</h2>
+                <div class="social-links">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#acerca">Acerca de mí</a>
+                    <a href="mailto:lpirolo@stbrendans.edu.ar">Email</a>
+                </div>
+                <p class="copyright">Copyright © 2026 Lucía Pirolo. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const toggle = document.querySelector(".nav-toggle");
+        const links = document.querySelector(".nav-links");
+
+        toggle.addEventListener("click", () => {
+            const open = links.classList.toggle("open");
+            toggle.setAttribute("aria-expanded", open);
+        });
+
+        links.querySelectorAll("a").forEach(link => {
+            link.addEventListener("click", () => {
+                links.classList.remove("open");
+                toggle.setAttribute("aria-expanded", "false");
+            });
+        });
+    </script>
+</body>
+</html>
